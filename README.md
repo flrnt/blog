@@ -1,2 +1,2 @@
-# blog
-flrnt
+# blog / portfolio 
+flrnt as flrnt
