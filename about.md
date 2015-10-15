@@ -9,3 +9,5 @@ This is the base Jekyll theme. You can find out more info about customizing your
 You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
+Hey, I'm flrnt. I build and design web applications, mostly in Rails, sometimes in React, but always with love. Want to hire me ? Feel free to send me a [message][allain.florent@gmail.com].
