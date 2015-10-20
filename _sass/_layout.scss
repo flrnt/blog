@@ -15,6 +15,10 @@ $border: #E9E9E9;
   clear: both;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 /**
  * Site header
  */
@@ -40,6 +44,7 @@ $border: #E9E9E9;
       text-decoration:none;
       margin:0 1rem;
       font-size: 1rem;
+      font-weight:300;
     }
   }
 }
