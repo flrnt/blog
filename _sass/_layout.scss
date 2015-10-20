@@ -6,6 +6,10 @@ $light: #9a9Da4;
 $highlight:#8bc6db;
 $border: #E9E9E9;
 
+* {
+  box-sizing:border-box;
+}
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -62,13 +66,17 @@ body {
  * Page content
  */
 
- p {
-  color:$light;
-   a {
-    color: $highlight;
-    text-decoration:none;
-   }
- }
+.col-1, .col-2, .col-3 {
+  float: left;
+}
+.col-1 {
+  width:45%;
+  padding: 0 5% 0 2.5%;
+}
+.col-2, .col-3 {
+  width:27.5%;
+  padding: 0 2.5%;
+}
 
 /**
  * Posts
