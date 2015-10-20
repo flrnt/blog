@@ -91,10 +91,6 @@ body {
 }
 
 /**
- * Site footer
- */
-
-/**
  * Page content
  */
 
@@ -126,6 +122,13 @@ body {
     font-size:1.35rem;
     font-weight:400;
   }
+  a {
+    text-decoration:none;
+    color:$dark;
+    &:hover {
+      color:$highlight;
+    }
+  }
   .date {
     font-size:.85em;
     margin-bottom:2em;
@@ -144,5 +147,25 @@ body {
   }
 }
 /**
- * Posts
+ * Site footer
  */
+ #main_footer {
+  padding:2.5em 5%;
+  border-top:1px solid $border;
+  .copyright {
+    float:left;
+    font-size: .9em;
+    margin:0;
+  }
+  nav {
+    float:right;
+    i {
+      color: $dark;
+      margin-left:1em;
+      padding-top:.2em;
+      &:hover {
+        color: $highlight;
+      }
+    }
+  }
+ }
