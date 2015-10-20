@@ -123,7 +123,13 @@ body {
     margin:2rem 0;
   }
   h3 {
-    font-size:1.25rem;
+    font-size:1.35rem;
+    font-weight:400;
+  }
+  .date {
+    font-size:.85em;
+    margin-bottom:2em;
+    color:$light;
   }
 }
 /**
