@@ -1,3 +1,5 @@
+@import 'normalize';
+
 /**
  * Site variables
  */
@@ -22,6 +24,11 @@ $border: #E9E9E9;
   }
   nav {
     float: right;
+    a {
+      color: $dark;
+      margin:0 1rem;
+      font-size: 1rem;
+    }
   }
 }
 
