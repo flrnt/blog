@@ -57,6 +57,14 @@ body {
  * Page content
  */
 
+ p {
+  color:$light;
+   a {
+    color: $highlight;
+    text-decoration:none;
+   }
+ }
+
 /**
  * Posts
  */
