@@ -64,6 +64,13 @@ body {
 .wrapper_padding {
   padding:4rem 0;
 }
+#page_title {
+  text-align:center;
+  border-bottom: 1px solid $border;
+  padding: 3em 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
 
 /**
  * Site header
@@ -179,7 +186,9 @@ body {
     }
   }
  }
-
+ /**
+  * contact page
+  */
 input[type="text"], input[type="email"], input[type="password"], textarea {
   width:100%;
   max-width:100%;
