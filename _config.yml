@@ -6,7 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
   in React, but always with love. Want to hire me ? Feel free to send me a [message][allain.florent@gmail.com].
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username:  flrnt
 
 # Build settings
 markdown: kramdown
