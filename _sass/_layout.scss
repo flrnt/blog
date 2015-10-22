@@ -243,8 +243,30 @@ label {
         }
       }
     }
+    span {
+      color: #B1B0B0;
+      font-size:.75em;
+    }
     hr {
       margin: 3em auto;
+    }
+  }
+}
+
+.project {
+  border: 1px solid $border;
+  padding:1em;
+  margin:3em auto;
+  h2 {
+    margin:0;
+    font-size:2em;
+    text-transform: uppercase;
+    a {
+      text-decoration:none;
+      color: $dark;
+      &:hover {
+        color: $highlight;
+      }
     }
   }
 }
