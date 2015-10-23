@@ -23,16 +23,16 @@ category: about
       <h3><a href="{{ posts.url }}">{{ posts.title }}</a></h3>
       <p class="date">{{ posts.date | date: '%B %d, %Y' }}</p>
     {% endfor %}
+    <h6><a href="/articles">more articles...</a></h6>
   </div>
   <div class="col-3 homepage-content">
     <h2>Stuff I've built</h2>
     <hr>
-    <h3><a href="#">DB Live Results</a></h3>
-      <p class="date">Friday April 10th</p>
-    <h3><a href="#">Bibl.io</a></h3>
-      <p class="date">Friday April 10th</p>
-    <h3><a href="#">Random Project</a></h3>
-      <p class="date">Friday April 10th</p>
+    {% for projects in projects limit: 3 %}
+      <h3><a href="{{ projects.url }}">{{ projects.title }}</a></h3>
+      <p class="date">{{ projects.date | date: '%B %d, %Y' }}</p>
+    {% endfor %}
+    <h6><a href="/porfolio">more projects...</a></h6>
   </div>
 </div>
 
