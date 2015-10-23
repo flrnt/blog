@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Le wagon"
+title:  "Le Wagon"
 date:   2015-01-09 00:00:35
 categories: jekyll update
 ---
