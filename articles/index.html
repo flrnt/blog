@@ -11,7 +11,7 @@ category: articles
     <div class="post">
       <p class="date">{{ posts.date | date: '%B %d, %Y' }}</p>
       <h2><a href="{{ posts.url }}">{{ posts.title }}</a></h2>
-      <span class="tag"><i class="fa fa-clock-o"></i> 12 min read | <i class="fa fa-flag-o"></i> English</span>
+      <span class="tag"><i class="fa fa-clock-o"></i> {{ posts.timereading }} min read | <i class="fa fa-flag-o"></i> {{ posts.language }}</span>
       <hr>
     </div>
   {% endfor %}
