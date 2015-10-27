@@ -19,22 +19,19 @@ category: about
   <div class="col-2 homepage-content">
     <h2>Stuff I've written</h2>
     <hr>
-    {% for posts in site.posts limit: 3 %}
-      <h3><a href="{{ posts.url }}">{{ posts.title }}</a></h3>
-      <p class="date">{{ posts.date | date: '%B %d, %Y' }}</p>
-    {% endfor %}
+      {% for posts in site.posts limit: 3 %}
+        <h3><a href="{{ posts.url }}">{{ posts.title }}</a></h3>
+        <p class="date">{{ posts.date | date: '%B %d, %Y' }}</p>
+      {% endfor %}
     <h6><a href="/articles">more <i class="fa fa-chevron-right"></i></a></h6>
   </div>
   <div class="col-3 homepage-content">
     <h2>Stuff I've built</h2>
     <hr>
-    <h3><a href="#">Blog</a></h3>
-    <p class="date">Monday, October 3rd</p>
-    <h3><a href="#">DataBase Live Results</a></h3>
-    <p class="date">Monday, October 3rd</p>
-    <h3><a href="#">Bibl.io</a></h3>
-    <p class="date">Monday, October 3rd</p>
-
+      {% for projects in site.projects limit: 3 %}
+        <h3><a href="{{ projects.url }}">{{ projects.title }}</a></h3>
+        <p class="date">{{ projects.date | date: '%B %d, %Y' }}</p>
+      {% endfor %}
     <h6><a href="/porfolio">more <i class="fa fa-chevron-right"></i></a></h6>
   </div>
 </div>
