@@ -8,3 +8,7 @@ url: "http://flrnt.fr" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+
+collections:
+  - projects
