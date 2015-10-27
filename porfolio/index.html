@@ -7,9 +7,9 @@ category: portfolio
 
 <h1 id="page_title">stuff i've built</h1>
 <div id="post_wrapper" class="skinny_wrapper">
-  <div class="project">
-    {% for project in site.projects %}
+  {% for project in site.projects %}
+    <div class="project">
       <h2><a href="#">{{ project.title }}</a></h2>
-    {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
 </div>
