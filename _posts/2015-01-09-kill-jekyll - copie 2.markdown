@@ -2,6 +2,7 @@
 layout: post
 title:  "Sublime Me"
 date:   2015-01-09 00:00:35
+comments: true
 timereading: "5"
 language: "Danish"
 categories: jekyll update
