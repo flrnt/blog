@@ -14,5 +14,5 @@ collections:
   projects:
     output: true
 
-paginate: 2
+paginate: 4
 paginate_path: "/articles/page:num/"
