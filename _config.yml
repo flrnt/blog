@@ -13,3 +13,6 @@ markdown: kramdown
 collections:
   projects:
     output: true
+
+paginate: 2
+paginate_path: "/articles/page:num/"
