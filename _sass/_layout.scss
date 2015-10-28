@@ -10,12 +10,6 @@ $border: #E9E9E9;
 .text-center {
   text-align: center;
 }
-
-
-* {
-  box-sizing:border-box;
-}
-
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -65,7 +59,12 @@ hr {
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
+* {
+  box-sizing:border-box;
+}
+// html, body {
+//   height: 100%;
+// }
 .wrapper {
   width:90%;
   margin: 0 auto;
@@ -74,6 +73,7 @@ body {
   width:80%;
   max-width:760px;
   margin:0 auto;
+  min-height: 57.3vh;
 }
 .wrapper_padding {
   padding:3rem 0;
@@ -183,7 +183,6 @@ body {
  * Site footer
  */
  #main_footer {
-  bottom:0;
   padding:2.5em 5%;
   border-top:1px solid $border;
   .copyright {
