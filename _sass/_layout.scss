@@ -6,6 +6,12 @@ $light: #9a9Da4;
 $highlight:#8bc6db;
 $border: #E9E9E9;
 
+// utilities
+.text-center {
+  text-align: center;
+}
+
+
 * {
   box-sizing:border-box;
 }
@@ -177,6 +183,7 @@ body {
  * Site footer
  */
  #main_footer {
+  bottom:0;
   padding:2.5em 5%;
   border-top:1px solid $border;
   .copyright {

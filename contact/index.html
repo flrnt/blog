@@ -9,16 +9,17 @@ category: contact
 
 <div class="skinny_wrapper wrapper_padding">
   <form action="//formspree.io/allain.florent@gmail.com" method="POST">
+    <input type="text" name="_gotcha" style="display:none" />
     <label>Name</label><br>
-    <input type="text" name="name">
+    <input type="text" name="name" required>
     <br>
     <label>Email</label><br>
-    <input type="text" name="_replyto">
+    <input type="text" name="_replyto" required>
     <br>
     <label>Message</label><br>
-    <textarea name="message"></textarea>
+    <textarea name="message" required></textarea>
     <br>
     <input type="submit" value="Send Message" class="button">
-    <input type="hidden" name="_next" value="/thank-you.html" />
+    <input type="hidden" name="_next" value="//flrnt.github.io/contact/thank-you.html" />
   </form>
 </div>
