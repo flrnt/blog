@@ -1,10 +1,10 @@
 /**
  * Site variables
  */
-$dark: #424652;
-$light: #9a9Da4;
-$highlight:#8bc6db;
-$border: #E9E9E9;
+$dark: #273043;
+$light: #1C3144;
+$highlight:#2274A5;
+$border: #EBEEEF;
 
 // utilities
 .text-center {
@@ -86,6 +86,14 @@ body {
   text-transform: uppercase;
   margin-top:0;
   margin-bottom:0;
+}
+#subpage_title {
+  text-align:center;
+  border-bottom: 3px solid $border;
+  padding: 1em 0;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top:0;
 }
 
 /**
