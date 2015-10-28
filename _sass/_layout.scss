@@ -281,9 +281,21 @@ label {
     }
   }
 }
-
-
-
-
-
-
+// pagination
+.pagination {
+  text-align: center;
+}
+.previous, .next {
+  border: 2px solid $border;
+  padding: 4px 8px;
+  margin: 20px;
+  i {
+    color: $light;
+    &:hover {
+      color: $highlight;
+    }
+  }
+}
+.page_number {
+  margin:5px;
+}
