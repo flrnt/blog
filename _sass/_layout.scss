@@ -86,6 +86,15 @@ body {
   text-transform: uppercase;
   margin-top:0;
   margin-bottom:0;
+  &.write {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 20%,rgba(255,255,255,0.9) 100%), url(http://thegraphicsfairy.com/wp-content/uploads/2014/01/French-Handwriting-Transfer-Rev-GraphicsFairy-sm.jpg) 50% 66% no-repeat;
+  }
+  &.build {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 20%,rgba(255,255,255,0.9) 100%), url(http://previews.123rf.com/images/tombaky/tombaky0805/tombaky080500004/3829783-Printed-internet-html-code-technology-background-Stock-Photo-programming.jpg) 50% 39% no-repeat;
+  }
+  &.hello {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 20%,rgba(255,255,255,0.9) 100%), url(http://static3.depositphotos.com/1000201/255/i/950/depositphotos_2556685-Speech-bubbles.jpg) 50% 96% no-repeat;
+  }
 }
 #subpage_title {
   text-align:center;
@@ -102,6 +111,9 @@ body {
 #main-navigation {
   padding:1.5em 5%;
   border-bottom:1px solid $border;
+  #logo:hover {
+    border:2px solid $dark;
+  }
   .name {
     font-weight:700;
     font-size: .85em;

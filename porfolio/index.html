@@ -5,7 +5,7 @@ description: Sometimes I build things.
 category: portfolio
 ---
 
-<h1 id="page_title">stuff i've built</h1>
+<!-- <h1 id="page_title">stuff i've built</h1>
 <div id="post_wrapper" class="skinny_wrapper">
   {% assign sorted_projects = site.projects | sort:'date' | reverse  %}
   {% for projects in sorted_projects %}
@@ -13,4 +13,22 @@ category: portfolio
       <h2><a href="{{ projects.url }}">{{ projects.title }}</a></h2>
     </div>
   {% endfor %}
-</div>
+</div> -->
+<h1 id="page_title" class="build">stuff i've built</h1>
+  {% for product in site.data.products %}
+  <section id="post_wrapper" class="skinny_wrapper">
+    <div class="project">
+      <a href="{{ product.url }}">
+        <img class="#" src="#" alt="#">
+      </a>
+
+      <h2><a href="{{ product.url }}">{{ product.name }}</a></h2>
+      <h3>{{ product.oneliner }}</h3>
+      <p><strong>My role:</strong> {{ product.role }}</p>
+      <p>{{ product.description}}</p>
+      <p>
+        <strong>Technologies:</strong> {{ product.technologies | join: ", " }}
+      </p>
+    </div>
+  </section>
+  {% endfor %}
