@@ -24,7 +24,7 @@ category: about
         <h3><a href="{{ posts.url }}">{{ posts.title }}</a></h3>
         <p class="date">{{ posts.date | date: '%B %d, %Y' }}</p>
       {% endfor %}
-    <h6><a href="/articles">more <i class="fa fa-angle-double-right"></i></a></h6>
+    <h6 class="bounce"><a href="/articles">more <i class="fa fa-angle-double-right"></i></a></h6>
   </div>
   <div class="col-3 homepage-content">
     <h2>Stuff I've built</h2>
@@ -34,6 +34,6 @@ category: about
         <h3><a href="{{ projects.url }}">{{ projects.title }}</a></h3>
         <p class="date">{{ projects.date | date: '%B %d, %Y' }}</p>
       {% endfor %}
-    <h6><a href="/porfolio">more <i class="fa fa-angle-double-right"></i></a></h6>
+    <h6 class="bounce"><a href="/porfolio">more <i class="fa fa-angle-double-right"></i></a></h6>
   </div>
 </div>
