@@ -1,7 +1,7 @@
 /**
  * Site variables
  */
-$dark: #343F3E;
+$dark: #3f3f42;
 $light: #8F91A2;
 $highlight:#94B0DA;
 $border: #EBEEEF;
@@ -112,7 +112,8 @@ body {
   padding:1.5em 5%;
   border-bottom:1px solid $border;
   #logo:hover {
-    border:2px solid $dark;
+    border:2px solid $highlight;
+    color: $highlight;
   }
   .name {
     font-weight:700;
