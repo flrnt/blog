@@ -93,7 +93,7 @@ body {
   background: linear-gradient(to bottom, rgba(255,255,255,0.8) 20%,rgba(255,255,255,0.9) 100%), url(http://previews.123rf.com/images/tombaky/tombaky0805/tombaky080500004/3829783-Printed-internet-html-code-technology-background-Stock-Photo-programming.jpg) 50% 39% no-repeat;
   }
   &.hello {
-  background: linear-gradient(to bottom, rgba(255,255,255,0.8) 20%,rgba(255,255,255,0.9) 100%), url(http://st2.depositphotos.com/3326513/8062/v/950/dep_80624998-set-of-white-pixel-outline-speech-bubbles.jpg) 50% 92% no-repeat;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%,rgba(255,255,255,1) 100%), url(http://st2.depositphotos.com/3326513/8062/v/950/dep_80624998-set-of-white-pixel-outline-speech-bubbles.jpg) 50% 92% no-repeat;
   }
 }
 #subpage_title {
@@ -148,6 +148,8 @@ body {
 
 .col-1, .col-2, .col-3 {
   float: left;
+  @media (max-width: 690px){
+  }
 }
 .col-1 {
   width:45%;
@@ -157,6 +159,7 @@ body {
   width:27.5%;
   padding: 0 2.5%;
 }
+
 .homepage-content {
   h2{
     font-size:1.1rem;
