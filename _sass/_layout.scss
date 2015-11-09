@@ -55,6 +55,10 @@ hr {
   border-top:2px solid $highlight;
   margin:2rem 0;
 }
+a {
+  text-decoration: none;
+  color:$dark;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -265,7 +269,7 @@ label {
 */
 
 #post_wrapper {
-  padding: 3em 0;
+  padding: 1em 0;
   .post {
     text-align:center;
     .date {
@@ -295,7 +299,7 @@ label {
 }
 // project page
 .project {
-  border: 1px solid $border;
+  border: 3px solid $border;
   padding:1em;
   margin:3em auto;
   h2 {
@@ -392,4 +396,10 @@ label {
     -webkit-transform: translateX(2.5px);
     transform: translateX(2.5px);
   }
+}
+
+// data product
+
+.img-product {
+  float:right;
 }
